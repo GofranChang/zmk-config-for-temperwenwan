@@ -21,9 +21,12 @@
 
 include:
   - board: nice_nano_v2 
-    shield: wenwan_left 
+    shield: wenwan_left nice_view_adapter nice_view
     snippet: studio-rpc-usb-uart 
     artifact-name: wenwan_left
   - board: nice_nano_v2
     shield: wenwan_right
     artifact-name: wenwan_right
+  
+  - board: nice_nano_v2
+    shield: settings_reset
