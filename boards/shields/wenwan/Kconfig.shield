@@ -1,0 +1,5 @@
+config SHIELD_WENWAN_LEFT
+    def_bool $(shields_list_contains,wenwan_left)
+
+config SHIELD_WENWAN_RIGHT
+    def_bool $(shields_list_contains,wenwan_right)
