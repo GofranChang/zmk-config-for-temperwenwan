@@ -3,8 +3,8 @@ on:
   workflow_dispatch:        # 手动触发
   push:                     # 自动触发
     paths:
-      - "config/*.keymap"
-      - "config/*.dtsi"
+      - "boards/shields/wenwan/*.keymap"
+      - "boards/shields/wenwan/*.dtsi"
       - "keymap_drawer.config.yaml"
 
 jobs:
@@ -13,6 +13,7 @@ jobs:
     permissions:
       contents: write       # 允许提交文件到仓库
     with:
-      keymap_patterns: "config/*.keymap"          # keymap 文件路径
-      config_path: "keymap_drawer.config.yaml"    # 配置文件（可选）
-      output_folder: "keymap-drawer"              # SVG 输出目录
+      keymap_patterns: "boards/shields/wenwan/*.keymap"
+      config_path: "keymap_drawer.config.yaml"
+      output_folder: "keymap-drawer"
+      # west_config_path: "config"
