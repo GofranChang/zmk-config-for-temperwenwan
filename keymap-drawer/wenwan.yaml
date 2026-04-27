@@ -128,21 +128,21 @@ layers:
   - LCTRL
   - LSHFT
   - ''
-  - {t: '&caps_word', s: CAPS}
   - LEFT
   - DOWN
   - UP
   - RIGHT
+  - {t: '&caps_word', s: CAPS}
   - ''
   - RALT
   - '&u_to_U_NUM'
   - '&u_to_U_NAV'
   - ''
-  - INS
   - HOME
   - PG DN
   - PG UP
   - END
+  - INS
   - ''
   - {type: held}
   - ''
@@ -165,21 +165,21 @@ layers:
   - LCTRL
   - LSHFT
   - ''
-  - ''
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_UP'
   - '&mmv MOVE_RIGHT'
   - ''
+  - ''
   - RALT
   - '&u_to_U_SYM'
   - '&u_to_U_MOUSE'
-  - ''
   - ''
   - '&msc SCRL_LEFT'
   - '&msc SCRL_DOWN'
   - '&msc SCRL_UP'
   - '&msc SCRL_RIGHT'
+  - ''
   - ''
   - ''
   - {type: held}
@@ -192,31 +192,31 @@ layers:
   - '&u_to_U_EXTRA'
   - '&u_to_U_BASE'
   - ''
-  - RGB TOG
   - RGB EFF
   - RGB HUI
   - RGB SAI
   - RGB BRI
+  - RGB TOG
   - LGUI
   - LALT
   - LCTRL
   - LSHFT
   - ''
-  - EP TOG
   - PREV
   - VOL DN
   - VOL UP
   - NEXT
+  - EP TOG
   - ''
   - RALT
   - '&u_to_U_FUN'
   - '&u_to_U_MEDIA'
   - ''
-  - {t: OUT TOG, s: OUT USB}
   - {t: BT, h: '0', s: '&u_macro_u_bt_sel_0'}
   - {t: BT, h: '1', s: '&u_macro_u_bt_sel_1'}
   - {t: BT, h: '2', s: '&u_macro_u_bt_sel_2'}
   - {t: BT, h: '3', s: '&u_macro_u_bt_sel_3'}
+  - {t: OUT TOG, s: OUT USB}
   - {type: held}
   - ''
   - ''
