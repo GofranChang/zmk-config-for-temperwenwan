@@ -6,8 +6,10 @@
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1250
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 
-#define U_MOUSE_MOVE_EXPONENT 1
-#define U_MOUSE_MOVE_TIME 1500
+// Pointer keys: gentle initial movement, then quadratic acceleration.
+// Holding a direction reaches the existing maximum speed after 1 second.
+#define U_MOUSE_MOVE_EXPONENT 2
+#define U_MOUSE_MOVE_TIME 1000
 #define U_MOUSE_MOVE_DELAY 0
 #define U_MOUSE_SCROLL_EXPONENT 1
 #define U_MOUSE_SCROLL_TIME 5000
